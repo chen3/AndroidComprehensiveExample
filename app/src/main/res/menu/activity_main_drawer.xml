@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/sms">
+        <menu>
+            <item
+                android:id="@+id/nav_send_message"
+                android:icon="@drawable/icon_send_message"
+                android:title="@string/send_message" />
+            <item
+                android:id="@+id/nav_receiver_message"
+                android:icon="@drawable/icon_receiver_message"
+                android:title="@string/receiver_message" />
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/phone" >
+        <menu>
+            <item
+                android:id="@+id/nav_call_phone"
+                android:icon="@drawable/icon_call_phone"
+                android:title="@string/call_phone" />
+            <item
+                android:id="@+id/nav_phone_state_changed_listener"
+                android:icon="@drawable/icon_listener"
+                android:title="@string/phone_state_changed_listener" />
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/camera">
+        <menu>
+            <item
+                android:id="@+id/nav_open_camera_app"
+                android:icon="@drawable/icon_camera_alt"
+                android:title="@string/open_camera_app" />
+            <item
+                android:id="@+id/nav_use_camera"
+                android:icon="@drawable/icon_camera"
+                android:title="@string/use_camera" />
+        </menu>
+    </item>
+</menu>

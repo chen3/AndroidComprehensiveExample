@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Project8</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="image_view_content_description">背景图片</string>
+    <string name="try_permission">尝试授权</string>
+    <string name="cancel">取消</string>
+
+    <string name="phone_number_input_hint">输入手机号码</string>
+    <string name="message_input_hint">输入需要发送的内容</string>
+    <string name="open_send_message_app">打开短信发送界面</string>
+    <string name="not_found_send_message_app">未能找到发送短信应用</string>
+    <string name="direct_send_message">直接发送短信</string>
+    <string name="send_success">发送成功</string>
+    <string name="send_generic_failure">发送发生一般故障</string>
+    <string name="send_service_currently_unavailable">发送服务当前不可用</string>
+    <string name="send_no_pdu_provided">发生失败，没有pdu提供</string>
+    <string name="send_radio_turned_off">发送失败，无线电被关闭</string>
+    <string name="send_fail">发送失败</string>
+    <string name="delivered_success">对方接收成功</string>
+    <string name="delivered_fail">对方接收失败</string>
+    <string name="send_need_permission">发送短信需要此权限，没有权限将无法发送</string>
+    <string name="send_permission_disable_manual_open_permissions">
+        发送短信权限已被禁止，需要手动开启权限
+    </string>
+    <string name="receive_sms_need_permission">接收短信需要此权限，没有权限将无法接收</string>
+    <string name="receiver_sms_permission_disable_manual_open_permissions">
+        接收短信权限已被禁止，需要手动开启权限
+    </string>
+    <string name="send_message">发送短信</string>
+    <string name="receiver_message">接收短信</string>
+
+    <string name="call_phone">拨打电话</string>
+    <string name="open_call_phone_app">打开拨号界面</string>
+    <string name="direct_call_phone">直接拨打电话</string>
+    <string name="not_found_call_phone_app">未能找到拨打电话应用</string>
+    <string name="call_phone_need_permission">直接拨打电话需要此权限，没有权限将无法拨打</string>
+    <string name="call_phone_permission_disable_manual_open_permissions">
+        拨打电话权限已被禁止，需要手动开启权限
+    </string>
+    <string name="prefix_tooltip_call_number">拨号通话,号码为：</string>
+    <string name="prefix_tooltip_incoming_ringing">来电响铃,号码为：</string>
+    <string name="phone_incoming_accept">接听来电，号码为：</string>
+    <string name="phone_idle">电话闲置</string>
+    <string name="receive_phone_state_changed_need_permission">
+        监听通话状态改变需要此权限，没有权限将无法监听
+    </string>
+    <string name="receiver_phone_state_changed_permission_disable_manual_open_permissions">
+        监听通话状态权限已被禁止，需要手动开启权限
+    </string>
+    <string name="phone_state_changed_listener">通话状态改变监听</string>
+    <string name="miss_call">未接来电：</string>
+    <string name="call_over_number_is">通话结束，通话号码：</string>
+
+    <string name="open_camera_app">打开系统照相应用</string>
+    <string name="open_camera_app_need_permission">打开系统照相应用需要权限</string>
+    <string name="open_camera_app_permission_disable_manual_open_permissions">
+        打开系统照相机权限已被禁止，需要手动开启权限
+    </string>
+    <string name="use_camera">调用拍照</string>
+    <string name="result_error_with_code">出错，错误码为%1$d。</string>
+    <string name="image_for_camera">系统拍照得到的图片</string>
+
+    <string name="use_camera_need_permission">使用内置照相机需要权限</string>
+    <string name="use_camera_permission_disable_manual_open_permissions">
+        使用照相机权限已被禁止，需要手动开启权限
+    </string>
+    <string name="capture_image">拍照图片</string>
+    <string name="auto_focus_fail">自动对焦失败</string>
+
+    <string name="sms">短信</string>
+    <string name="phone">电话</string>
+    <string name="camera">相机</string>
+
+</resources>
